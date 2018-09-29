@@ -11,7 +11,7 @@ public class _31_FruitMain {
 	System.out.println(pear2.ordinal());
 	_31_FRUIT[] fruits=_31_FRUIT.values(); //성분들을 몯 반환해서 배열로 만드는 매소드
 	System.out.println(fruits[0]+" "+fruits[1]+" "+fruits[2]);
-	_31_FRUIT pear3 = _31_FRUIT.valueOf("APPLE");
+	_31_FRUIT pear3 = _31_FRUIT.valueOf("APPLE"); //valueOf의 값을 저장
 	System.out.println(pear3);
 	}
 }
