@@ -4,7 +4,7 @@ public class _29_BioCalendar2 {
 	public static final int PHYSICAL = 23;
 
 	public static double getBioRhythm(long days, int index, int max) {
-		return max * Math.sin((days % index) * 2 * Math.PI / index);
+		return max * Math.sin((days % index) * 2 * Math.PI / index);//static 메서드는 객체없이 호출가능
 	}
 
 	public static void main(String[] args) {
