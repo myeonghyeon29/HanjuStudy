@@ -23,7 +23,7 @@ public class _40_Moneychange {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		String ch = scanner.next();
+		String ch = scanner.next(); //scanner로 문자열입력받는다
 		System.out.printf("%.2f원\n",tomoney(ch));
 		scanner.close();
 	}

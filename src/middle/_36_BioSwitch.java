@@ -16,7 +16,7 @@ public class _36_BioSwitch {
 		int index=23;
 		double value=0.97;
 		
-		String st=textInfor(index,value);
+		String st=textInfor(index,value); 
 		System.out.println(st);
 	}
 
