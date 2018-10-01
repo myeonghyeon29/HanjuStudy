@@ -9,7 +9,7 @@ public class _45_ShowFor {
 			temp=temp*3+1;
 		else
 			temp/=2;
-	System.out.print("["+temp+"]");
+	System.out.print("["+temp+"]ZxZX");
 	}
 }
 
