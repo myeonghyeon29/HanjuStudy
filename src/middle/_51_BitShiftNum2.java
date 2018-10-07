@@ -1,7 +1,7 @@
 package middle;
 
 public class _51_BitShiftNum2 {
-	public static String changeTwoNum(int num) {
+	public String changeTwoNum(int num) {
 		String a = "";
 		int isOne = 1;
 		for (int i = 0; i < 30; i++) {
@@ -14,8 +14,9 @@ public class _51_BitShiftNum2 {
 	public static void main(String[] args) {
 		int num1= 9;
 		int num2=-9;
-		System.out.printf("%s\n",changeTwoNum(num1));
-		System.out.printf("%s",changeTwoNum(num2));
+		_51_BitShiftNum2 a = new _51_BitShiftNum2();
+		System.out.printf("%s\n",a.changeTwoNum(num1));
+		System.out.printf("%s",a.changeTwoNum(num2));
 
 	}
 
