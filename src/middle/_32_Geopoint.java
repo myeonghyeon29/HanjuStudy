@@ -1,8 +1,15 @@
 package middle;
 
+class Geo
+{
+	public double latitude;
+	public double longitude;
+	
+}
 public class _32_Geopoint {
 
 	public static void main(String[] args) {
+		Geo ggeo =new Geo();
 		double latitude1 = 10.29;
 		double longitude1 = 2.29;
 		double latitude2 = 11.30;
